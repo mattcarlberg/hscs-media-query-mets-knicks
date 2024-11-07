@@ -1,0 +1,19 @@
+
+#mets{
+    background-color: orange;
+    display: block;
+}
+
+#knicks{
+    background-color:blue;
+    display: none;
+}
+
+@media (min-width: 768px){
+    #mets{
+        display: none;
+    }
+    #knicks{
+        display: block;
+    }
+}
