@@ -1,4 +1,4 @@
-
+/*By default, MEts are displayed, and Knicks are hidden*/
 #mets{
     background-color: orange;
     display: block;
@@ -9,6 +9,8 @@
     display: none;
 }
 
+
+/*On big screens, Mets are hidden, and Knicks are displayed*/
 @media (min-width: 768px){
     #mets{
         display: none;
